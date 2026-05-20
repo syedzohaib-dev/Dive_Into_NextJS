@@ -19,7 +19,7 @@ export default function TodoList() {
             {todos.map((todo) => (
                 <div
                     key={todo.id}
-                    className="bg-indigo-900 flex items-center justify-between p-3 rounded-md mb-3 w-150"
+                    className="bg-lime-500 flex items-center justify-between p-3 rounded-md mb-3 w-150"
                 >
                     <h2>{todo.text}</h2>
                     <div>
