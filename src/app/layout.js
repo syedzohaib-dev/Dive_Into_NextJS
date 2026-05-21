@@ -1,4 +1,6 @@
+import { TodoProvider } from '@/context/todoContext';
 import './globals.css'
+
 
 export const metadata = {
   title: 'Home |Software Company',
@@ -9,7 +11,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        {children}
+        <TodoProvider>{children}</TodoProvider>
       </body>
     </html>
   );
